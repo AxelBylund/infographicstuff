@@ -1,0 +1,68 @@
+#main {
+  background-color: grey;
+  background-image: url("img/wow/wow-background.jpg");
+  background-size: cover;
+  width: 1vwmax;
+  height: 1vhmax;
+}
+
+#main-header {
+  width: 99vw;
+  height: 40vh;
+  text-align: center;
+}
+
+.monospace {
+  font-family: 'Space Mono', monospace;
+}
+
+#game-title {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+}
+
+#container-img {
+  height: 450px;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  padding-left: 2vw;
+}
+
+.middle {
+  display: inline-block;
+}
+
+.right {
+  display: inline-block;
+}
+
+.float-right {
+  float: right;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.game-logo {
+  width: 30vw;
+  height: auto;
+}
+
+#text {
+  word-wrap: break-word;
+}
